@@ -1,0 +1,15 @@
+/* section {
+    padding:0 7%;
+} */
+
+
+.footer-bottom {
+    background-color: yellowgreen;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: white;
+    font-size: 1.2rem;
+}
