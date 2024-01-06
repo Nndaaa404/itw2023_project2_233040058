@@ -1,20 +1,29 @@
-/* section {
-    padding:0 7%;
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     font-family: 'Poppins', sans-serif;
 }
 
-.footer-bottom {
-    background-color:cadetblue;
-    padding: 1rem;
-    text-align: center;
+/* Gaya CSS untuk alert */
+.alert {
+    position: absolute;
+    top: 93%;
+    right: -3rem;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: .5rem;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
 }
 
-.footer-bottom p {
-    color: white;
-    font-size: 1.2rem;
+/* Gaya CSS untuk tombol tutup alert */
+.close-btn {
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin-left: 2rem;
 }
